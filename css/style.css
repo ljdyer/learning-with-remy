@@ -1,0 +1,111 @@
+/* Classes for in-game display */
+.game-image{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bad{
+  background-color: red;
+  color: white !important;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+.good{
+  background-color: white;
+  color: green !important;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+.complete{
+  background-color: yellow;
+  color: purple !important;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+.spaced{
+  padding-left: 40px;
+  padding-right: 40px
+}
+
+/* Game board section heights */
+#main{
+  height:350px
+}
+#instruction_div{
+  height:100px
+}
+#score{
+  height:100px
+}
+
+/* Top logo */
+#logo-main {
+  display: block;
+  margin: 5px auto;
+}
+
+/* Tags  */
+p, h1, span{
+  color: white;
+}
+h1{
+  padding: 30px
+}
+li{
+  padding-left: 12px;
+  padding-right: 12px
+}
+p, span{
+  font-size:1.5vw
+}
+body {
+  background-color: black;
+}
+a{
+  font-size: 1.5vw;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 550px}
+
+/* Set black background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  background-color: black;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+header {
+  background-color: black;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
+.navbar-nav.navbar-center {
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+}
